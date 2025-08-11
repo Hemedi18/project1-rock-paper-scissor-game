@@ -101,9 +101,9 @@ p {
   margin-top: 15px;
   padding: 10px 20px;
   background: #02ffb3;
-  color: black;
   border: none;
   border-radius: 6px;
+  color: #000000;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
