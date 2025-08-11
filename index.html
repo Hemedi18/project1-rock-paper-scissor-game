@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor Game</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Love letter style font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <h1>Rock Paper Scissor</h1>
+    <p>Choose your move:</p>
+
+    <section class="buttons">
+      <button id="rock" aria-label="Rock">
+        <figure>
+          <img src="image.png" alt="Rock image" width="50">
+          <figcaption>ROCK</figcaption>
+        </figure>
+      </button>
+      <button id="paper" aria-label="Paper">
+        <figure>
+          <img src="image copy.png" alt="Paper image" width="50">
+          <figcaption>PAPER</figcaption>
+        </figure>
+      </button>
+      <button id="scissor" aria-label="Scissors">
+        <figure>
+          <img src="image copy 2.png" alt="Scissors image" width="50">
+          <figcaption>SCISSORS</figcaption>
+        </figure>
+      </button>
+    </section>
+
+    <section class="result">
+      <h2>Choice Board</h2>
+      <p id="user-choice">Your choice: </p>
+      <p id="computer-choice">Computer's choice: </p>
+      <p id="result-message">Result: </p>
+    </section>
+
+    <section class="score">
+      <h2>Score Board</h2>
+      <p id="user-score">Your score: 0</p>
+      <p id="computer-score">Computer's score: 0</p>
+    </section>
+
+    <button id="reset">Reset</button>
+  </main>
+
+  <footer>
+    <p>Made by <a href="hemyhacker" target="_blank" rel="noopener noreferrer">hemyhacker</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
